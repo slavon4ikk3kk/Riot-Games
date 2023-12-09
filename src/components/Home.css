@@ -1,0 +1,119 @@
+@media (min-width: 992px) {
+    header {
+        background-color: skyblue;/*Колір фону слогана*/
+        color: #333;/*Колір тексту слогана*/
+        text-align: center;/*Вирівнювання тексту слогана*/
+        padding: 10px;/*Внутрішній відступ тексту слогана*/
+        font-size: 1em;
+    }
+    /*Стилі для усієї секції home*/
+    .home{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 30vh;
+    }
+    section {
+        padding: 20px;
+    }
+    /*Стилі для секції з картинками*/
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3vh;
+    }
+    /*Стилі для окремої картинки*/
+    .image-container img {
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .company-description {
+        text-align: left;
+        padding-top: 40px;
+        
+    }
+    }
+    @media (max-width: 768px) {
+        header {
+            background-color: skyblue;/*Колір фону слогана*/
+            color: #333;/*Колір тексту слогана*/
+            text-align: center;/*Вирівнювання тексту слогана*/
+            padding: 10px;/*Внутрішній відступ тексту слогана*/
+            font-size: 0.6em;
+        }
+        /*Стилі для усієї секції home*/
+        .home{
+            justify-content: space-around;
+            padding-bottom: 30vh;
+        }
+        section {
+            padding: 20px;
+        }
+        /*Стилі для секції з картинками*/
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 3vh;
+        }
+        /*Стилі для окремої картинки*/
+        .image-container img {
+            width: 80%;
+            height: auto;
+            margin-bottom: 60px;
+        }
+        
+        .company-description {
+            text-align: left;
+            font-size: 0.9em;
+            text-indent: 30px;
+            padding-top: 40px;
+        }
+    }
+    
+@media (min-width: 768px) and (max-width: 992px) {
+    header {
+        background-color: skyblue;/*Колір фону слогана*/
+        color: #333;/*Колір тексту слогана*/
+        text-align: center;/*Вирівнювання тексту слогана*/
+        padding: 10px;/*Внутрішній відступ тексту слогана*/
+        font-size: 1em;
+    }
+    /*Стилі для усієї секції home*/
+    .home{
+        
+        justify-content: space-around;
+        padding-bottom: 30vh;
+    }
+    section {
+        padding: 20px;
+    }
+    /*Стилі для секції з картинками*/
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3vh;
+    }
+    /*Стилі для окремої картинки*/
+    .image-container img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    
+    .company-description {
+        text-align: left;
+        font-size: 0.9em;
+        text-indent: 30px;
+    }
+    
+}
